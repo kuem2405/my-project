@@ -1,0 +1,664 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8" http-equiv="content-type" content="text/html" />
+	<meta name="author" content="GallerySoft.info" />
+ 
+    <link rel="stylesheet" href="css/style.css"/>
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+    <script src="js/tabs.js"></script>
+    
+    <script src="js/time.js"></script>
+	<title>tiki.vn</title>
+</head>
+
+<body>
+    <div id="wrap">
+        <div id="header">
+            <div id="header-info">
+            <div id="logo"><h1><a href="#">tiki.vn</a></h1></div>
+            <ul id="dich-vu">
+                <li class="free-ship"><a href="#"><span class="dam">Miễn phí giao hàng</span><br /><span>Tận nơi - toàn quốc *</span></a></li>
+                <li class="tiki-return"><a href="#"><span class="dam">15 ngày đổi trả</span><br /><span>365 ngày bảo hành</span></a></li>
+                <li class="tiki-xu"><a href="#"><span class="dam">Khách hàng thân thiết</span><br /><span>Mua giá không đồng với Tiki Xu</span></a></li>
+            </ul>
+            <div id="user-cart">
+                <div class="user">
+                    <div class="pic-user"></div>
+                    <a href="#"><span class="dam">Đăng nhập</span><br /><span>Tài khoản và Đơn hàng</span></a>
+                    <ul>
+                        <li>
+                            <a class="login">Đăng nhập</a><br />
+                            <a class="login-fb">Liên kết facebook</a><br />
+                            <div class="new-user">Khách hàng mới <a href="#">Tạo tài khoản?</a></div>
+                        </li>
+                        <li><a href="#">Tài khoản của tôi</a></li>
+                        <li><a href="#">Danh sách yêu thích</a></li>
+                        <li><a href="#">Đánh giá của tôi</a></li>
+                        <li><a href="#">Thông tin tiki Xu</a></li>
+                        <li><a href="#">Thông báo</a></li>
+                        <li class="top-line"><a href="#">Đơn hàng của tôi</a></li>
+                    </ul>
+                </div>
+                <div class="shopping-cart">
+                <div class="pic-cart"></div>
+                    <a href="#"><span class="dam">Giỏ hàng</span></a>
+                    <div class="row"></div>
+                    <div class="info-shopping"><p>Không có sản phẩm nào của bạn</p></div>
+                </div>
+            </div><!--end user-cart-->
+            </div><!--end header-info-->
+            <div id="menu-search" class="group">
+                <div id="menu-page-menu">
+                    <ul>
+                        <li><a href="#">Sách</a>
+                            <div class="info-menu">
+                                <div class="noi-bat">
+                                    <h3>Nổi bật</h3>
+                                    <ul>
+                                        <h4>Sách Tiếng Việt</h4>
+                                        <li><a href="#">Sách bán chạy</a></li>
+                                        <li><a href="#">Sách mới</a></li>
+                                        <li><a href="#">Sách giảm giá</a></li>
+                                        <li><a href="#">Đặt trước</a></li>
+                                    </ul>
+                                    <ul>
+                                        <h4>Sách Tiếng anh</h4>
+                                        <li><a href="#">Sách bán chạy</a></li>
+                                        <li><a href="#">Sách mới</a></li>
+                                        <li><a href="#">Sách giảm giá</a></li>
+                                        <li><a href="#">Đặt trước</a></li>
+                                    </ul>
+                                </div>
+                                <div class="danh-muc">
+                                    <h3>Danh mục</h3>
+                                    <ul>
+                                        <li><a href="#">Sách tiếng anh</a></li>
+                                        <li><a href="#">Sách Tiki khuyên đọc </a></li>
+                                        <li><a href="#">Sách văn học - Tiểu thuyết</a></li>
+                                        <li><a href="#">Sách kinh tế</a></li>
+                                        <li><a href="#">Sách chuyên nghành</a></li>
+                                        <li><a href="#">Sách kĩ năng sống - Sách kĩ thuật sống</a></li>
+                                        <li><a href="#">Sách Giáo Khoa</a></li>
+                                        <li><a href="#">Sách Học Ngoại Ngữ - Từ Điển</a></li>
+                                        <li><a href="#">Sách Cho Tuổi Mới Lớn</a></li>
+                                        <li><a href="#">Sách Truyện Thiếu Nhi </a></li>
+                                        <li><a href="#">Sách Thường Thức - Đời Sống</a></li>
+                                        <li><a href="#">Truyện Tranh, Manga, Comic</a></li>
+                                        <li><a href="#">Sách Văn Hoá - Nghệ Thuật - Du Lịch</a></li>
+                                    </ul>
+                                </div>
+                                <div class="thuong-hieu">
+                                    <h3>THƯƠNG HIỆU</h3>
+                                    <ul>
+                                        <li><a href="#">Aphabooks</a></li>
+                                        <li><a href="#">Bách Việt</a></li>
+                                        <li><a href="#">Đông Á</a></li>
+                                        <li><a href="#">First News</a></li>
+                                        <li><a href="#">Nhã Nam</a></li>
+                                        <li><a href="#">NXB Kim Đồng</a></li>
+                                        <li><a href="#">NXB Phụ Nữ</a></li>
+                                        <li><a href="#">NXB Tuổi Trẻ</a></li>
+                                        <li><a href="#">Quảng Văn</a></li>
+                                        <li><a href="#">NXB Trẻ</a></li>
+                                        <li><a href="#">TGM Books</a></li>
+                                        <li><a href="#">Thái Hà</a></li>
+                                        <li><a href="#">Văn Việt</a></li>
+                                        <li class="view-all"><a href="#">Xem tất cả...</a></li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </li><!--end sach-->
+                            
+                        <li><a href="#">Điện tử</a>
+                            <div class="info-menu">
+                                <div class="noi-bat">
+                                    <h3>Nổi bật</h3>
+                                    <ul>
+                                        <li><a href="#">Bán chạy</a></li>
+                                        <li><a href="#">Hàng mới</a></li>
+                                        <li><a href="#">Giảm giá</a></li>
+                                    </ul>
+                                </div>
+                                <div class="danh-muc">
+                                    <h3>Danh mục</h3>
+                                    <ul>
+                                        <li><a href="#">Máy ảnh - Máy quay phim</a></li>
+                                        <li><a href="#">Máy tính bảng - Máy đọc sách </a></li>
+                                        <li><a href="#">Tai nghe -Loa</a></li>
+                                        <li><a href="#">Phụ kiện điện tử</a></li>
+                                        <li><a href="#">Điện thoại</a></li>
+                                        <li><a href="#">Phụ kiện cho điện thoại</a></li>                                        
+                                    </ul>
+                                </div>
+                                <div class="thuong-hieu">
+                                    <h3>THƯƠNG HIỆU</h3>
+                                    <ul>
+                                        <li><a href="#">Nokia</a></li>
+                                        <li><a href="#">Sennhenser</a></li>
+                                        <li><a href="#">Logitech</a></li>
+                                        <li><a href="#">Philips</a></li>
+                                        <li><a href="#">Elecom</a></li>
+                                        <li><a href="#">Sony</a></li>
+                                        <li><a href="#">Samsung</a></li>
+                                        <li><a href="#">Zalmans</a></li>
+                                        <li class="view-all"><a href="#">Xem tất cả...</a></li>                                     
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="#">Gia dụng</a>
+                            <div class="info-menu">
+                                <div class="noi-bat">
+                                    <h3>Nổi bật</h3>
+                                    <ul>
+                                        <li><a href="#">Bán chạy</a></li>
+                                        <li><a href="#">Hàng mới</a></li>
+                                        <li><a href="#">Giảm giá</a></li>
+                                    </ul>
+                                </div>
+                                <div class="danh-muc">
+                                    <h3>Danh mục</h3>
+                                    <ul>
+                                        <li><a href="#">Điện gia đình</a></li>
+                                        <li><a href="#">Sản phẩm nhà bếp </a></li>
+                                        <li><a href="#">Nhà cửa - đời sống</a></li>
+                                        <li><a href="#">Sức khỏe - sắc đẹp</a></li>
+                                        <li><a href="#">Thể thao</a></li>                                        
+                                    </ul>
+                                </div>
+                                <div class="thuong-hieu">
+                                    <h3>THƯƠNG HIỆU</h3>
+                                    <ul>
+                                        <li><a href="#">Philips</a></li>
+                                        <li><a href="#">Sharp</a></li>
+                                        <li><a href="#">Tefal</a></li>
+                                        <li><a href="#">Kenwood</a></li>
+                                        <li><a href="#">Suzumi</a></li>
+                                        <li><a href="#">Panasonic</a></li>
+                                        <li><a href="#">Bluehouse</a></li>
+                                        <li><a href="#">Pensonic</a></li>
+                                        <li><a href="#">Bamix</a></li>
+                                        <li><a href="#">Cornell</a></li>
+                                        <li><a href="#">Brother</a></li>
+                                        <li><a href="#">Vision</a></li>
+                                        <li><a href="#">Văn Việt</a></li>
+                                        <li class="view-all"><a href="#">Xem tất cả...</a></li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="#">Quà tặng</a>
+                            <div class="info-menu">
+                                <div class="noi-bat">
+                                    <h3>Nổi bật</h3>
+                                    <ul>                                        
+                                        <li><a href="#">Quà tặng bán chạy</a></li>
+                                        <li><a href="#">Quà tặng mới</a></li>
+                                        <li><a href="#">Quà tặng giảm giá</a></li>
+                                        <li><a href="#">Đặt trước</a></li>
+                                    </ul>
+                                </div>
+                                <div class="danh-muc">
+                                    <h3>Danh mục</h3>
+                                    <ul>
+                                        <li><a href="#">Quà lưu niệm</a></li>
+                                        <li><a href="#">Văn phẩm học</a></li>
+                                        <li><a href="#">Đồ dùng cá nhân</a></li>
+                                        <li><a href="#">Đồ chơi</a></li>
+                                        <li><a href="#">Đồ trang trí</a></li>
+                                        <li><a href="#">Giả trí</a></li>
+                                        <li><a href="#">Đồ Hand-made</a></li>
+                                        <li><a href="#">Flashcard</a></li>
+                                        <li><a href="#">Lịch 2014</a></li>
+                                        <li><a href="#">Bao lì xì</a></li>
+                                        <li><a href="#">Noel 2014</a></li>                                       
+                                    </ul>
+                                </div>
+                                <div class="thuong-hieu">
+                                    <h3>THƯƠNG HIỆU</h3>
+                                    <ul>
+                                        <li><a href="#">PLUS</a></li>
+                                        <li><a href="#">Stabilo</a></li>
+                                        <li><a href="#">Uni Mitsubish</a></li>
+                                        <li><a href="#">Blueway</a></li>
+                                        <li><a href="#">Lamy</a></li>
+                                        <li><a href="#">Chó Đầu xù</a></li>
+                                        <li><a href="#">Nici</a></li>
+                                        <li><a href="#">BobiCraft</a></li>
+                                        <li><a href="#">Cubic Fun</a></li>
+                                        <li><a href="#">MetalWorks</a></li>
+                                        <li class="view-all"><a href="#">Xem tất cả...</a></li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="#">Thời trang</a>
+                            <div class="info-menu">
+                                <div class="noi-bat">
+                                    <h3>Nổi bật</h3>
+                                    <ul>
+                                        <li><a href="#">Bán chạy</a></li>
+                                        <li><a href="#">Hàng mới</a></li>
+                                        <li><a href="#">Giảm giá</a></li>
+                                        <li><a href="#">Đặt trước</a></li>
+                                    </ul>
+                                </div>
+                                <div class="danh-muc">
+                                    <h3>Danh mục</h3>
+                                    <ul>
+                                        <li><a href="#">Thời Trang Nam</a></li>
+                                        <li><a href="#">Thời Trang Nữ</a></li>
+                                        <li><a href="#">Thời Trang Mặc Ở Nhà</a></li>
+                                        <li><a href="#">Túi Xách Nữ</a></li>
+                                        <li><a href="#">Giày dép nam</a></li>
+                                        <li><a href="#">Giày Dép Nữ</a></li>
+                                        <li><a href="#">Phụ kiện thời trang nam</a></li>
+                                        <li><a href="#">Phụ Kiện Thời Trang Nữ</a></li>
+                                    </ul>
+                                </div>
+                                <div class="thuong-hieu">
+                                    <h3>THƯƠNG HIỆU</h3>
+                                    <ul>
+                                        <li><a href="#">FOCI</a></li>
+                                        <li><a href="#">Zaa</a></li>
+                                        <li><a href="#">Vera</a></li>
+                                        <li><a href="#">Me Gril</a></li>
+                                        <li><a href="#">Bò Sữa</a></li>
+                                        <li><a href="#">Nhộng</a></li>
+                                        <li><a href="#">WOW</a></li>
+                                        <li><a href="#">SomiViet</a></li>
+                                        <li><a href="#">Mattana</a></li>
+                                        <li><a href="#">Novelty</a></li>
+                                        <li><a href="#">Update Style</a></li>
+                                        <li><a href="#">Vietnam T-Shirt Project</a></li>
+                                        <li><a href="#">KENT</a></li>
+                                        <li><a href="#">Paltal</a></li>
+                                        <li class="view-all"><a href="#">Xem tất cả...</a></li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="#">Làm đẹp - sức khỏe</a>
+                            <div class="info-menu">
+                                <div class="noi-bat">
+                                    <h3>Nổi bật</h3>
+                                    <ul>
+                                        <li><a href="#">Bán chạy</a></li>
+                                        <li><a href="#">Hàng mới</a></li>
+                                        <li><a href="#">Giảm giá</a></li>
+                                        <li><a href="#">Đặt trước</a></li>
+                                    </ul>
+                                </div>
+                                <div class="danh-muc">
+                                    <h3>Danh mục</h3>
+                                    <ul>
+                                        <li><a href="#">Trang Điểm</a></li>
+                                        <li><a href="#">Chăm sóc da mặt</a></li>
+                                        <li><a href="#">Chăm sóc tóc / Da đầu</a></li>
+                                        <li><a href="#">Chăm sóc cơ thể</a></li>
+                                        <li><a href="#">Chăm sóc cá nhân</a></li>
+                                        <li><a href="#">Nước hoa</a></li>
+                                    </ul>
+                                </div>
+                                <div class="thuong-hieu">
+                                    <h3>THƯƠNG HIỆU</h3>
+                                    <ul>
+                                        <li><a href="#">Adidas</a></li>
+                                        <li><a href="#">Playboy</a></li>
+                                        <li><a href="#">Mira</a></li>
+                                        <li><a href="#">Etude House</a></li>
+                                        <li><a href="#">Ponds</a></li>
+                                        <li><a href="#">Purederm</a></li>
+                                        <li><a href="#">Yoko</a></li>
+                                        <li><a href="#">Dove</a></li>
+                                        <li><a href="#">Sunsilk</a></li>
+                                        <li><a href="#">Clear</a></li>
+                                        <li class="view-all"><a href="#">Xem tất cả...</a></li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div id="search">
+                    <form id="search-form" action="" method="get">
+                        <input type="text" value="" name="s"/>
+                        <input type="submit" value="Search" name="submit"/>
+                    </form>
+                </div>
+            </div><!--end menu-search-->
+        </div><!--end header-->
+        <div id="content">
+            <div id="quang-cao">
+                <div id="tabs-info">
+                    <div id="tabs-navi">
+                        <ul class="tabs">
+                            <li ><a href="#520-525" class="active">520|525</a></li>
+                            <li><a href="#thoi-trang-tet">Thời trang tết</a></li>
+                            <li><a href="#missha">Missha</a></li>
+                            <li><a href="#tranh-dong-ho">Tranh đồng hồ</a></li>
+                            <li><a href="#zaa">Zaa</a></li>
+                            <li><a href="#phu-kien">Phụ kiện</a></li>
+                            <li><a href="#bep-hong-ngoai">Bếp hồng ngoại</a></li>
+                        </ul>
+                        <div class="tabs-container">
+                            <div id="520-525" class="tabs-content"><a href="#"><img src="images/tabs/520-525.jpg"/></a></div>
+                            <div id="thoi-trang-tet" class="tabs-content"><a href="#"><img src="images/tabs/thoi-trang-tet.jpg"/></a></div>
+                            <div id="missha" class="tabs-content"><a href="#"><img src="images/tabs/missha.jpg"/></a></div>
+                            <div id="tranh-dong-ho" class="tabs-content"><a href="#"><img src="images/tabs/tranh-dong-ho.jpg"/></a></div>
+                            <div id="zaa" class="tabs-content"><a href="#"><img src="images/tabs/zaa.jpg"/></a></div>
+                            <div id="phu-kien" class="tabs-content"><a href="#"><img src="images/tabs/phu-kien.jpg"/></a></div>
+                            <div id="bep-hong-ngoai" class="tabs-content"><a href="#"><img src="images/tabs/bep-hong-ngoai.jpg"/></a></div>
+                            </div>
+                    </div><!--end tabs-navi-->
+                    <div id="tabs-navi">
+                        <ul class="tabs1">
+                            <li ><a href="#nguoi-yeu-cu" class="active">Người yêu cũ</a></li>
+                            <li><a href="#ho-duyen">Hồ duyên</a></li>
+                            <li><a href="#artbook">Artbook</a></li>
+                            <li><a href="#mang-ghep-tinh-yeu">Mảng ghép tình yêu</a></li>
+                            <li><a href="#than-dong-dat-viet">Thần đồng đất việt</a></li>
+                        </ul>
+                        <div class="tabs-container">
+                            <div id="nguoi-yeu-cu" class="tabs-content1"><a href="#"><img src="images/tabs/nguoi-yeu-cu.jpg"/></a></div>
+                            <div id="ho-duyen" class="tabs-content1"><a href="#"><img src="images/tabs/ho-duyen.jpg"/></a></div>
+                            <div id="artbook" class="tabs-content1"><a href="#"><img src="images/tabs/artbook.jpg"/></a></div>
+                            <div id="mang-ghep-tinh-yeu" class="tabs-content1"><a href="#"><img src="images/tabs/mang-ghep-tinh-yeu.jpg"/></a></div>
+                            <div id="than-dong-dat-viet" class="tabs-content1"><a href="#"><img src="images/tabs/than-dong-dat-viet.jpg"/></a></div>
+                        </div>
+                    </div><!--end tabs-navi-->
+                </div><!--end tabs-info-->
+                <div id="right-quang-cao">
+                    <div class="right-hotline"><span class="dam">Hotline </span><span class="hotline">(08)7-305-8454</span><br /><span class="ngay">(8-11h kể cả thứ 7 và chủ nhật</span></span></div>
+                    <div class="right-kho-bau"><h3>Kho báu tiki</h3><img src="images/San-pham/3noi-1chao.jpg"/><div class="thong-tin"><a href="#">Bộ 3 nồi 1 chảo Rainy NR07TT</a><br /><span class="gia-moi">259.000 </span><span class="gia-cu">525.000</span>
+                    <br /><span class="phan-tram">Tiết Kiệm 51%</span><br />Còn<span class="phan-tram">90%</span><br /><span class="mua"><a href="#">Mua ngay</a></span>
+                    </div></div>
+                    <div class="right-new-tiki"><h1>BẢN TIN TIKI</h1><h3>TIỆN ÍCH - NHIỀU ƯU ĐÃI</h3>
+                        <form id="new-tiki" action="" method="get">
+                            <input type="text" value="" name="email"/><br />
+                            <input type="submit" value="Đăng kí - nhận tiện ích" name="sudmit-email"/>
+                        </form>
+                        
+                    </div>
+                </div>
+            </div><!--end quang-cao-->
+            <div id="san-pham">
+                <div class="a-san-pham">
+                    <span class="tieu-de">Sách Tiếng Việt</span>
+                <div id="tabs-navi">
+                        <ul class="tabs2">
+                            <li ><a href="#sach-moi" class="active">Mới</a></li>
+                            <li><a href="#sach-noi-bat">Nổi bật</a></li>
+                            <li><a href="#sach-giam-gia">Giảm giá</a></li>
+                        </ul><br />
+                        <div class="tabs-container">
+                            <div id="sach-moi" class="tabs-content2">
+                                 <ul>
+                                    <li><a href="#"><img src="images/San-pham/1.jpg"/><br/>Hồ Duyên</a> <div class="moi"></div><br/><span class="tac-gia">Công Tử Hoan Hỉ</span><br /><span class="gia-moi">51.000 đ</span><span class="gia-cu"> 64.000 đ</span></li>
+                                    <li><a href="#"><img src="images/San-pham/2.jpg"/><br/>Người Yêu Cũ Có Người Yêu Mới</a> <div class="moi"></div><br/><span class="tac-gia">Iris Cao</span><br /><span class="gia-moi">44.000 đ</span><span class="gia-cu"> 55.000 đ</span></li>
+                                    <li><a href="#"><img src="images/San-pham/3.jpg"/><br/>Điều Kì Diệu Ở Phòng Giam Số 7</a> <div class="moi"></div><br/><span class="tac-gia">Park Lee Jeong</span><br /><span class="gia-moi">79.000 đ</span><span class="gia-cu"> 99.000 đ</span></li>
+                                    <li><a href="#"><img src="images/San-pham/4.jpg"/><br/>Artbook "Tam Sinh Tam Thế - Thật Lí Đào Hoa"</a><div class="moi"></div><br/><span class="tac-gia">Đường Thất Công Tử </span><br /><span class="gia-moi">159.000 đ</span><span class="gia-cu"> 199.000 đ</span></li>
+                                 </ul>
+                            </div><!--end sach-moi-->
+                        </div>
+                    </div>
+                </div><!--end 1-san-pham-->
+                
+                <div class="a-san-pham">
+                    <span class="tieu-de">Tiki Khuyên Đọc</span>
+                <div id="tabs-navi">
+                        
+                        <div class="tabs-container">
+                            <div class="tabs-content2">
+                                 <ul>
+                                    <li><a href="#"><img src="images/San-pham/5.jpg"/><br/>Săn cá thần</a> <br/><span class="tac-gia">Đặng Thiều Quang</span><br /><span class="gia-moi">68.000 đ</span><span class="gia-cu"> 85.000 đ</span></li>
+                                    <li><a href="#"><img src="images/San-pham/6.jpg"/><br/>Phù thủy sứ OZ(Nhã Lam)</a> <br/><span class="tac-gia">L.Frank Baum</span><br /><span class="gia-moi">40.000 đ</span><span class="gia-cu"> 50.000 đ</span></li>
+                                    <li><a href="#"><img src="images/San-pham/7.jpg"/><br/>Vợ Người Du Hành Thời Gian</a> <br/><span class="tac-gia">Audrey Niffenegger</span><br /><span class="gia-moi">102.000 đ</span><span class="gia-cu"> 128.000 đ</span></li>
+                                    <li><a href="#"><img src="images/San-pham/8.jpg"/><br/>Đồi Gió Hú (Nhã Lam)</a><br/><span class="tac-gia">Emily Bronte</span><br /><span class="gia-moi">69.000 đ</span><span class="gia-cu"> 86.000 đ</span></li>
+                                 </ul>
+                            </div><!--end sach-moi-->
+                        </div>
+                    </div>
+                </div><!--end 1-san-pham-->
+                
+                <div class="a-san-pham">
+                    <span class="tieu-de">Điện Tử</span>
+                <div id="tabs-navi">
+                        <ul class="tabs2">
+                            <li ><a href="#dt-moi" class="active">Mới Nhất</a></li>
+                            
+                            <li><a href="#dt-giam-gia">Giảm giá</a></li>
+                        </ul><br />
+                        <div class="tabs-container">
+                            <div id="dt-moi" class="tabs-content2">
+                                 <ul>
+                                    <li><a href="#"><img src="images/San-pham/9.jpg"/><br/>Điện Thoại Lumia 1320</a> <div class="moi"></div><br/><span class="gia-moi">7.300.000 đ</span><span class="gia-cu"> 7.480.000 đ</span></li>
+                                    <li><a href="#"><img src="images/San-pham/10.jpg"/><br/>Pin Sạc Dự Phòng Buffalo iBuffalo BSMPB04 2013</a> <div class="moi"></div><br/><span class="gia-moi">950.000 đ</span><span class="gia-cu"> 1.200.000 đ</span></li>
+                                    <li><a href="#"><img src="images/San-pham/11.jpg"/><br/>Loa Creative D120</a> <div class="moi"></div><br/><span class="gia-moi">1.199.000 đ</span><span class="gia-cu"> 2.450.000 đ</span></li>
+                                    <li><a href="#"><img src="images/San-pham/12.jpg"/><br/>Điện Thoại Lumia 1520</a><div class="moi"></div><br/><span class="gia-moi">15.900.000 đ</span></li>
+                                 </ul>
+                            </div><!--end sach-moi-->
+                        </div>
+                    </div>
+                </div><!--end 1-san-pham-->
+                
+                <div class="a-san-pham">
+                    <span class="tieu-de">Phụ Kiện Điện Tử</span>
+                <div id="tabs-navi">
+                        <ul class="tabs2">
+                            <li ><a href="#tai-nghe" class="active">Tai Nghe</a></li>
+                            <li><a href="#usb">USB</a></li>
+                            <li><a href="#pin-sac">Pin Sạc</a></li>
+                            <li><a href="#chuot-ban-phim">Giảm giá</a></li>
+                        </ul><br />
+                        <div class="tabs-container">
+                            <div id="tai-nghe" class="tabs-content2">
+                                 <ul>
+                                    <li><a href="#"><img src="images/San-pham/13.jpg"/><br/>Tai Nghe Sades SA-904</a> <div class="moi"></div><br/><span class="gia-moi">450.000 đ</span><span class="gia-cu"> 545.000 đ</span></li>
+                                    <li><a href="#"><img src="images/San-pham/14.jpg"/><br/>Tai Nghe Sennheiser HD 201</a><br /><span class="gia-moi">495.000 đ</span><span class="gia-cu"> 580.000 đ</span></li>
+                                    <li><a href="#"><img src="images/San-pham/15.jpg"/><br/>Tai Nghe Logitech</a><br /><span class="gia-moi">249.000 đ</span><span class="gia-cu"> 342.000 đ</span></li>
+                                    <li><a href="#"><img src="images/San-pham/16.jpg"/><br/>Tai Nghe Sennheiser HD 202 II</a><br /><span class="gia-moi">650.000 đ</span><span class="gia-cu"> 955.000 đ</span></li>
+                                 </ul>
+                            </div><!--end sach-moi-->
+                        </div>
+                    </div>
+                </div><!--end 1-san-pham-->
+                
+                <div class="a-san-pham">
+                    <span class="tieu-de">Gia Dụng</span>
+                <div id="tabs-navi">
+                        <ul class="tabs2">
+                            <li ><a href="#gd-moi" class="active">Mới Nhất</a></li>
+                            <li><a href="#gd-gg">Giảm Giá</a></li>
+                            <li><a href="#dien-gd">Điện Gia Đình</a></li>
+                        </ul><br />
+                        <div class="tabs-container">
+                            <div id="gd-moi" class="tabs-content2">
+                                 <ul>
+                                    <li><a href="#"><img src="images/San-pham/17.jpg"/><br/>Hộp Đựng Cơm 3 Ngăn Homio IN.13-004</a> <div class="moi"></div><br/><span class="gia-moi">329.000 đ</span><span class="gia-cu"> 429.000 đ</span></li>
+                                    <li><a href="#"><img src="images/San-pham/18.jpg"/><br/>Bộ 21 Hộp Nhựa Homio PL.13-004</a> <div class="moi"></div><br /><span class="gia-moi">769.000 đ</span><span class="gia-cu"> 1.100.000 đ</span></li>
+                                    <li><a href="#"><img src="images/San-pham/19.jpg"/><br/>Máy Xay Sinh Tố Pensonic PB4001-Xanh Lá</a> <div class="moi"></div><br/><span class="gia-moi">479.000 đ</span><span class="gia-cu"> 890.000 đ</span></li>
+                                    <li><a href="#"><img src="images/San-pham/20.jpg"/><br/>Bếp Từ Cảm Ứng Soho 19CU</a><div class="moi"></div><br/><span class="gia-moi">769.000 đ</span><span class="gia-cu"> 890.000 đ</span></li>
+                                 </ul>
+                            </div><!--end sach-moi-->
+                        </div>
+                    </div>
+                </div><!--end 1-san-pham-->
+                
+                 <div class="a-san-pham">
+                    <span class="tieu-de">Gia Dụng</span>
+                <div id="tabs-navi">
+                        <ul class="tabs2">
+                            <li ><a href="#gd-moi" class="active">Mới Nhất</a></li>
+                            <li><a href="#gd-gg">Giảm Giá</a></li>
+                            <li><a href="#dien-gd">Điện Gia Đình</a></li>
+                        </ul><br />
+                        <div class="tabs-container">
+                            <div id="gd-moi" class="tabs-content2">
+                                 <ul>
+                                    <li><a href="#"><img src="images/San-pham/17.jpg"/><br/>Hộp Đựng Cơm 3 Ngăn Homio IN.13-004</a> <div class="moi"></div><br/><span class="gia-moi">329.000 đ</span><span class="gia-cu"> 429.000 đ</span></li>
+                                    <li><a href="#"><img src="images/San-pham/18.jpg"/><br/>Bộ 21 Hộp Nhựa Homio PL.13-004</a> <div class="moi"></div><br /><span class="gia-moi">769.000 đ</span><span class="gia-cu"> 1.100.000 đ</span></li>
+                                    <li><a href="#"><img src="images/San-pham/19.jpg"/><br/>Máy Xay Sinh Tố Pensonic PB4001-Xanh Lá</a> <div class="moi"></div><br/><span class="gia-moi">479.000 đ</span><span class="gia-cu"> 890.000 đ</span></li>
+                                    <li><a href="#"><img src="images/San-pham/20.jpg"/><br/>Bếp Từ Cảm Ứng Soho 19CU</a><div class="moi"></div><br/><span class="gia-moi">769.000 đ</span><span class="gia-cu"> 890.000 đ</span></li>
+                                 </ul>
+                            </div><!--end sach-moi-->
+                        </div>
+                    </div>
+                </div><!--end 1-san-pham-->
+                
+                 <div class="a-san-pham">
+                    <span class="tieu-de">Gia Dụng</span>
+                <div id="tabs-navi">
+                        <ul class="tabs2">
+                            <li ><a href="#gd-moi" class="active">Mới Nhất</a></li>
+                            <li><a href="#gd-gg">Giảm Giá</a></li>
+                            <li><a href="#dien-gd">Điện Gia Đình</a></li>
+                        </ul><br />
+                        <div class="tabs-container">
+                            <div id="gd-moi" class="tabs-content2">
+                                 <ul>
+                                    <li><a href="#"><img src="images/San-pham/17.jpg"/><br/>Hộp Đựng Cơm 3 Ngăn Homio IN.13-004</a> <div class="moi"></div><br/><span class="gia-moi">329.000 đ</span><span class="gia-cu"> 429.000 đ</span></li>
+                                    <li><a href="#"><img src="images/San-pham/18.jpg"/><br/>Bộ 21 Hộp Nhựa Homio PL.13-004</a> <div class="moi"></div><br /><span class="gia-moi">769.000 đ</span><span class="gia-cu"> 1.100.000 đ</span></li>
+                                    <li><a href="#"><img src="images/San-pham/19.jpg"/><br/>Máy Xay Sinh Tố Pensonic PB4001-Xanh Lá</a> <div class="moi"></div><br/><span class="gia-moi">479.000 đ</span><span class="gia-cu"> 890.000 đ</span></li>
+                                    <li><a href="#"><img src="images/San-pham/20.jpg"/><br/>Bếp Từ Cảm Ứng Soho 19CU</a><div class="moi"></div><br/><span class="gia-moi">769.000 đ</span><span class="gia-cu"> 890.000 đ</span></li>
+                                 </ul>
+                            </div><!--end sach-moi-->
+                        </div>
+                    </div>
+                </div><!--end 1-san-pham-->   
+                    
+            </div><!--end #san-pham-->
+            <div id="thong-tin-trai">
+                <h3>Top 100 sách bán chạy trong tuần</h3>
+                <div class="thong-tin-left">
+                    <table >
+                        <tr>
+                            <td width=90px><a href="#" class="gach-chan">Người Yêu Cũ Có Người Yêu Mới</a></td>
+                            <td><a href="#">Người Yêu Cũ Có Người Yêu Mới</a> <div class="moi"></div><br/><span class="tac-gia">Iris Cao</span><br /><span class="gia-moi">44.000 đ</span><span class="gia-cu"> 55.000 đ</span></td>
+                        </tr>
+                        <tr>
+                            <td width=90px><a href="#" class="gach-chan">Người Yêu Cũ Có Người Yêu Mới</a></td>
+                            <td><a href="#">Người Yêu Cũ Có Người Yêu Mới</a> <div class="moi"></div><br/><span class="tac-gia">Iris Cao</span><br /><span class="gia-moi">44.000 đ</span><span class="gia-cu"> 55.000 đ</span></td>
+                        </tr>
+                        <tr>
+                            <td width=90px><a href="#" class="gach-chan">Người Yêu Cũ Có Người Yêu Mới</a></td>
+                            <td><a href="#">Người Yêu Cũ Có Người Yêu Mới</a> <div class="moi"></div><br/><span class="tac-gia">Iris Cao</span><br /><span class="gia-moi">44.000 đ</span><span class="gia-cu"> 55.000 đ</span></td>
+                        </tr>
+                        <tr>
+                            <td width=90px><a href="#" class="gach-chan">Người Yêu Cũ Có Người Yêu Mới</a></td>
+                            <td><a href="#">Người Yêu Cũ Có Người Yêu Mới</a> <div class="moi"></div><br/><span class="tac-gia">Iris Cao</span><br /><span class="gia-moi">44.000 đ</span><span class="gia-cu"> 55.000 đ</span></td>
+                        </tr>
+                        <tr>
+                            <td width=90px><a href="#" class="gach-chan">Người Yêu Cũ Có Người Yêu Mới</a></td>
+                            <td><a href="#">Người Yêu Cũ Có Người Yêu Mới</a> <div class="moi"></div><br/><span class="tac-gia">Iris Cao</span><br /><span class="gia-moi">44.000 đ</span><span class="gia-cu"> 55.000 đ</span></td>
+                        </tr>
+                    </table>
+                    
+                </div>
+                
+                <h3>Top 100 sách bán chạy trong tuần</h3>
+                <div class="thong-tin-left">
+                    <table >
+                        <tr>
+                            <td width=90px><a href="#" class="gach-chan">Người Yêu Cũ Có Người Yêu Mới</a></td>
+                            <td><a href="#">Người Yêu Cũ Có Người Yêu Mới</a> <div class="moi"></div><br/><span class="tac-gia">Iris Cao</span><br /><span class="gia-moi">44.000 đ</span><span class="gia-cu"> 55.000 đ</span></td>
+                        </tr>
+                        <tr>
+                            <td width=90px><a href="#" class="gach-chan">Người Yêu Cũ Có Người Yêu Mới</a></td>
+                            <td><a href="#">Người Yêu Cũ Có Người Yêu Mới</a> <div class="moi"></div><br/><span class="tac-gia">Iris Cao</span><br /><span class="gia-moi">44.000 đ</span><span class="gia-cu"> 55.000 đ</span></td>
+                        </tr>
+                        <tr>
+                            <td width=90px><a href="#" class="gach-chan">Người Yêu Cũ Có Người Yêu Mới</a></td>
+                            <td><a href="#">Người Yêu Cũ Có Người Yêu Mới</a> <div class="moi"></div><br/><span class="tac-gia">Iris Cao</span><br /><span class="gia-moi">44.000 đ</span><span class="gia-cu"> 55.000 đ</span></td>
+                        </tr>
+                        <tr>
+                            <td width=90px><a href="#" class="gach-chan">Người Yêu Cũ Có Người Yêu Mới</a></td>
+                            <td><a href="#">Người Yêu Cũ Có Người Yêu Mới</a> <div class="moi"></div><br/><span class="tac-gia">Iris Cao</span><br /><span class="gia-moi">44.000 đ</span><span class="gia-cu"> 55.000 đ</span></td>
+                        </tr>
+                        <tr>
+                            <td width=90px><a href="#" class="gach-chan">Người Yêu Cũ Có Người Yêu Mới</a></td>
+                            <td><a href="#">Người Yêu Cũ Có Người Yêu Mới</a> <div class="moi"></div><br/><span class="tac-gia">Iris Cao</span><br /><span class="gia-moi">44.000 đ</span><span class="gia-cu"> 55.000 đ</span></td>
+                        </tr>
+                    </table>
+                    
+                </div>
+                
+                
+                
+                <h3>Top 100 sách bán chạy trong tuần</h3>
+                <div class="thong-tin-left">
+                    <table >
+                        <tr>
+                            <td width=90px><a href="#" class="gach-chan">Người Yêu Cũ Có Người Yêu Mới</a></td>
+                            <td><a href="#">Người Yêu Cũ Có Người Yêu Mới</a> <div class="moi"></div><br/><span class="tac-gia">Iris Cao</span><br /><span class="gia-moi">44.000 đ</span><span class="gia-cu"> 55.000 đ</span></td>
+                        </tr>
+                        <tr>
+                            <td width=90px><a href="#" class="gach-chan">Người Yêu Cũ Có Người Yêu Mới</a></td>
+                            <td><a href="#">Người Yêu Cũ Có Người Yêu Mới</a> <div class="moi"></div><br/><span class="tac-gia">Iris Cao</span><br /><span class="gia-moi">44.000 đ</span><span class="gia-cu"> 55.000 đ</span></td>
+                        </tr>
+                        <tr>
+                            <td width=90px><a href="#" class="gach-chan">Người Yêu Cũ Có Người Yêu Mới</a></td>
+                            <td><a href="#">Người Yêu Cũ Có Người Yêu Mới</a> <div class="moi"></div><br/><span class="tac-gia">Iris Cao</span><br /><span class="gia-moi">44.000 đ</span><span class="gia-cu"> 55.000 đ</span></td>
+                        </tr>
+                        <tr>
+                            <td width=90px><a href="#" class="gach-chan">Người Yêu Cũ Có Người Yêu Mới</a></td>
+                            <td><a href="#">Người Yêu Cũ Có Người Yêu Mới</a> <div class="moi"></div><br/><span class="tac-gia">Iris Cao</span><br /><span class="gia-moi">44.000 đ</span><span class="gia-cu"> 55.000 đ</span></td>
+                        </tr>
+                        <tr>
+                            <td width=90px><a href="#" class="gach-chan">Người Yêu Cũ Có Người Yêu Mới</a></td>
+                            <td><a href="#">Người Yêu Cũ Có Người Yêu Mới</a> <div class="moi"></div><br/><span class="tac-gia">Iris Cao</span><br /><span class="gia-moi">44.000 đ</span><span class="gia-cu"> 55.000 đ</span></td>
+                        </tr>
+                    </table>
+                    
+                </div>
+            </div><!--end thong-tin-trai-->
+            <div id="mua-hang-tiki">
+                <h1>Mua hàng trực tuyến tại Tiki.vn</h1>
+                <hr />
+                <a href="#"><img src="images/tiki_home.png"/></a>
+                <p>Công ty Cổ phần Ti Ki ra đời vào tháng 3/2010, với cách thức kinh doanh Mua hàng online - Giao hàng tận nơi. Bắt đầu với mô hình nhà sách trên mạng - cho phép đọc giả dễ dàng tìm sách & mua sách online - đến nay Tiki đã có tới hàng chục nghìn sản phẩm từ các thương hiệu uy tín của 6 ngành hàng Sách, Điện tử, Gia dụng, Thời trang, Quà tặng, Làm đẹp - Sức khoẻ. Không chỉ vậy, mua sắm trực tuyến tại Tiki.vn giúp quý khách tiết kiệm được thời gian, công sức mà vẫn bảo đảm được các quyền lợi về bảo hành, đổi/trả.
+Chỉ cần mở website Tiki.vn và mua hàng qua mạng, quý khách sẽ được giao sản phẩm tới tận nơi miễn phí khi đặt đơn hàng từ 100.000đ trong phạm vi Tp.HCM và từ 200.000đ đối với các tỉnh thành khác. Hãy cùng hàng triệu người tiêu dùng Việt Nam trải nghiệm tiện ích mua hàng trên mạng dễ dàng, tiện ích cùng Tiki.vn</p>
+            </div><!--end mua-hang-tiki-->
+            
+        </div><!--end content-->
+        <hr />
+        <div id="footer">
+            <div id="footer-info">
+                <ul>
+                    <li><h2>Hỗ trợ khách hàng</h2>Hotline: <span class="hotline">(08)7-305-8454</span><a href="#">Email & Chat</a><a href="#">Các câu hỏi thường gặp</a><a href="#">Chính sách trả đổi</a><a href="#">Phương thức vận chuyển</a><a href="#">Giới thiệu Tiki Xu</a></li>
+                    <li><h2>Mua sắm an toàn</h2><a href="#">Hướng dẫn đặt hàng</a><a href="#">Hướng dẫn thanh toán</a><a href="#">Chính sách bảo mật</a><a href="#">Điều khỏa xử dụng</a></li>
+                    <li><h2>Tài khỏa của bạn</h2><a href="#">Xem trạng thái đơn hàng</a><a href="#">Lịch sử đơn hàng</a><a href="#">Quên mật khẩu</a><a href="#">Thông tin tài khoản</a></li>
+                    <li><h2>Về Tiki.vn</h2><a href="#">Giới thiệu Tiki.vn</a><a href="#">Tuyển dụng</a><a href="#">Hội Sách Online</a><a href="#">Tiki.vn phiên bản Mobile</a><h2>MXH & Hợp tác</h2><a href="#">Foody.vn - Ăn gì ở đâu</a></li>
+                    <li><img src="images/fr-lvb.jpg"/></li>            
+                </ul>
+                <hr />
+                
+            </div>
+            <div class="blog-love-tiki">
+                <ul>
+                    <li><h2>Tiki Blog</h2><div class="blog"><h3>Giấy xốp màu ngà</h3><p>Tình hình gần đây, Tiki nhận được khá nhiều thắc mắc của các bạn về một số cuốc sách in trên giấy xốp màu ngà. Đại khái là " sao giấy lại</p><a href="#">Xem tiếp..</a></div></li>
+                    <li><h2>Khách hàng yêu Tiki</h2><div class="blog"><span class="dam">Angel Popo</span> nhận xét<p>Lúc chiều có nghe 1 cuộc đt mẹ gọi ở nhà nhận gói bưu phẩm chuyển từ Sài Gòn ra.. đã đoán là sách đặt mua của tiki ...nhưng không nghĩ là ra nhanh thế...<a href="#">Xem thêm</a></p></div></li>
+                </ul>
+                
+            </div>
+            <hr />
+            <div class="ban-quyen">
+                <ul>
+                    <li><p>© 2013 - Bản quyền của Công Ty Cổ Phần Ti Ki - Tiki.vn. Địa chỉ: Tòa nhà Lữ Gia, 70 Lữ Gia, Phường 15, Quận 11, TPHCM, Việt Nam. Giấy chứng nhận Đăng ký Kinh doanh số 0309532909 do Sở Kế hoạch và Đầu tư Thành phố Hồ Chí Minh cấp ngày 07/08/2012 </p></li>
+                    <li><img src="images/award.jpg" class="thanh-toan"/></li>
+                    <li><span class="an-toan">Thanh toán an toàn</span><br /><img src="images/safe.jpg"/></li>
+                </ul>
+            </div>
+        </div><!--end footer-->    
+    </div><!--end wwrap-->
+    
+
+</body>
+</html>
