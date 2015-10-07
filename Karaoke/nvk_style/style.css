@@ -1,0 +1,128 @@
+ul{
+ list-style: none;
+}
+body{
+	background: url("../nvk_images/wood10.jpg");
+	background-repeat: inherit;
+}
+a{
+	font-weight: none;
+	text-decoration:none;
+	color: #4285F4;
+}
+fieldset{
+	border :1px solid;
+	border-radius:5px;
+	padding:10px;
+	margin: 30px 0px;
+}
+
+#menu{
+	float:left;
+}
+#menu .active{
+	background: #fff;
+	color: #000;
+	border-radius: 5px;
+}
+#menu ul{
+	font-size:15px;
+	font-weight: bold;
+}
+#menu ul li{
+	float:left;
+	position: relative;
+	border: 1px solid #589700;
+	border-radius: 5px;
+	margin:0px 5px;
+}
+#menu ul li a{
+	padding: 10px 15px;
+	background: #589700;
+	display:block;
+	text-decoration:none;
+	font-weight:bold;
+	font-family: Arial "Time New Roman";
+}
+
+#menu ul li a:hover{
+	background: #4285F4;
+	color:#589700;
+	border: 1px solid #4285F4;
+	border-radius: 5px;
+}
+
+#main{
+	margin: auto;
+	width:900px;
+
+}
+
+#tang{
+	margin:15px auto;
+	border: 1px solid;
+	border-radius:5px;
+	height: auto;
+	display: block;
+	float: left;
+}
+#tang h1{
+	border-radius:5px;
+	padding:10px 20px;
+	font-weight: bold;
+	font-size: 20px;
+	color:#fff;
+	background: #FE756A;
+	text-align: center;
+}
+
+#tang ul{
+	font-weight: bold;
+	font-size: 18px;
+}
+#tang li{
+	float:left;
+	position: relative;
+	border: 1px solid #4285F4;
+	border-radius: 5px;
+	margin: 10px;
+	background: #4285f4;
+	width:250px;
+	text-align: center;
+}
+#tang ul li a{
+	display:block;
+	color:#fff;
+	padding: 10px 30px;
+}
+
+#footer{
+	text-align: center;
+}
+
+
+#login{
+	margin:auto;
+	padding:20px 30px;
+	border:1px solid #fff;
+	border-radius:5px;
+	text-align: center;
+}
+#login h1 {
+	font-size: 17px;
+	color: #fff;
+}
+#login input{
+	border-radius: 5px;
+	margin: 10px 30px;
+	padding: 5px 20px;
+}
+.warning{
+	color:red;
+	text-decoration:bold;
+}
+.user_name{
+	color:#fff;
+	font-size:18px;
+	font-weight: bold;
+}
